@@ -13,6 +13,6 @@ int main()
     for this if we have 2 bars we need one cut similarly for 3 bars we need 2 cuts so in general for k bars we need k-1 cuts
     now we reduced the problem from 2d to 1d so for this 1d bars we need similarly k-1 cuts if its width is k these k-1 cuts are made for t number of times where t is the maximum of n and m so total number of final cuts is : (max(n,m)-1) + (min(n,m)-1)*max(n,m)
     */
-    cout << (max(n, m) - 1) + (min(n, m) - 1) * max(n, m) << endl;
+    cout << (max(n, m) - 1) + (min(n, m) - 1) << endl;
     return 0;
 }
